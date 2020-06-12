@@ -1,0 +1,12 @@
+For training the model
+put the data into "data" folder then there will be two folders inside it. Put the test data into "test" folder and train data into "train" folder.
+then execute the following command
+python3 leaf-run.py
+
+For testing at any random database execute the following command
+python3 leaf-run.py --id path to folder
+for eg python3 leaf-run.py --id /home/anant/Desktop/leafident-master/data/test
+
+folder should contain 185 folders of each type of leaves
+
+
